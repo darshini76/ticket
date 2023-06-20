@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Ticket</title>
+    </head>
+    <body>
+        <script>
+            var age=prompt("Enter Your Age")
+            document.write("<h1>"+"Age of the person is"+" "+age+"<br>" +"Ticket Type : "+"<br>"+"</h1>")
+            
+            if(age<12){
+                document.write("Child Ticket : $5")
+            }else if(age>=12 && age<18){
+                document.write("Teen Ticket : $10")
+            }else if(age>=18 && age<65){
+                document.write("Adult Ticket : $15")
+            }else if(age>=65){
+                document.write("Senior Ticket : $10")
+            }else{
+                document.write("Invalid data")
+            }
+        </script>
+    </body>
+</html>
